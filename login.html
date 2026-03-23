@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login form</title>
+    <link rel="stylesheet" href="using.css">
+    <style>
+       
+        
+
+        body {
+           
+       
+
+        background-image: url("background-realistic-abstract-technology-particle_23-2148431735.avif");
+         background-size: cover;
+    
+        }
+
+          form {
+            text-align: center;
+            padding-top: 20px;
+            position: absolute;
+            height: 350px;
+            width:350px;
+            left: 55%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #a9e1d3;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="new__icon image.jpg" alt="logo">
+            
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                 <li><a href="homepage.html">Home</a></li>
+                <li><a href="About Us.html"> About us</a></li>
+                <li><a href="login.html"> Login</a></li>
+                <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+                <li><a href="contacts.html">contacts</a></li>
+
+            </ul>
+        </div>
+        <div class="search">
+            <input class="srch"type="search" name=""placeholder="Type to text">
+            <a href="#"><button class="btn">Search</button></a>
+
+        </div>
+    </header>
+
+    
+         <form name="forml" style="text-align: center;" onsubmit="showalert()">
+             <h1 style="background-color: rgb(63, 114, 216);" >Registration form</h1>
+        
+            <table style="text-align: center;" cellspacing="4">
+
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <th>username:</th>
+                    <td><input type="text" placeholder="username"></td>
+                </tr>
+
+                <tr>
+                    <th>password:</th>
+                    <td><input type="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td><input type="text" placeholder="your's address"></td>
+                </tr>
+                <tr>
+                    <th>E-mail id:</th>
+                    <td><input type="text" placeholder="xxx@gmail.com"></td>
+                </tr>
+                <tr>
+                    <th>Mobile no.:</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        male<input type="radio" value="male" name="gender">
+                        female<input type="radio" value="female" name="gender">
+                    </td>
+                </tr>
+               
+                <tr>
+                    <th>DOB:</th>
+                    <td><input type="data" placeholder="dd/mm/yyyy"></td>
+                </tr>
+                <tr>
+                    <th>blood group:</th>
+                    <td><input type="text" placeholder="(-ve)"></td>
+                </tr>
+                <tr>
+
+                </tr>
+            </table>
+             <input type="submit" value="Submit" />
+        <input type="Reset" value="Cancel" />
+        <script>
+            function showalert(){
+                alert("Registration submitted successfully!");
+                
+            }
+        </script>
+        </form>
+       
+    
+</body>
+
+</html>
