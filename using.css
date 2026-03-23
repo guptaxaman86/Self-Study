@@ -1,0 +1,227 @@
+
+
+.header{
+  background-color: #4a90e2;
+   height: 85px;
+  margin-top: -10px;
+}
+
+.left{
+    display: inline-block;
+    font-size:15px;
+}
+.left img{
+      font-size: 30px;
+    width: 90px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    border-radius: 15px;
+    
+}
+
+.left div{
+  line-height: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.mid{
+  
+  position: absolute;
+  left: 200px;
+  top: 18px;
+
+}
+.right{
+ display: inline-block;
+position: absolute;
+right: 34px;
+top: 15px;}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  font-size: 18px;
+  
+}
+.navbar li a{
+  color: rgb(244, 243, 243);
+  text-decoration: none;
+  padding: 50px,50px;
+  margin: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out ;
+
+   
+}
+.navbar li a:hover{
+  background-color: rgb(203, 99, 99);
+}
+.search{
+  width: 300px;
+  height:50px;
+  float: left;
+  margin-left: 1100px;
+  top: 15px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 150px;
+  height: 30px;
+  background:black;
+  border: 1px solid #d36740;
+
+  margin-top: 15px;
+  color: #fff;
+  padding: 10px;
+  
+  
+}
+.btn{
+  width: 25%;
+  height: 30px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+}
+
+.img{
+  background-image: url(new\ background\ image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+
+
+}
+
+
+.content{
+  
+  font-weight: 200px;
+  width: 1200px;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 50px;
+ 
+}
+
+.content .par{
+  padding-left: 20px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 90px;
+  letter-spacing: 2px;
+}
+
+.content .jo{
+  
+  width: 150px;
+  height: 40px;
+  background: #e1dcd8;
+  background-color: #ff7200;
+  margin-left: 20px;
+  border-radius: 22px;
+}
+.content .jo a{
+  text-decoration: none;
+  color: black;
+}
+.content jo  a:hover{
+  background-color:rgb(203, 99, 99);
+
+}
+.content span{
+  color: #ff7200;
+  font-size: 60px;
+}
+
+.about-selfstudy {
+    width: 100%;
+    padding: 90px 0;
+    background: linear-gradient(140deg, #041424, #071c2f);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.box {
+    width: 80%;
+    margin: auto;
+    color: #d8e8ff;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.25);
+}
+
+.title span {
+    color: #ff7a00;
+    text-shadow: 0 0 8px rgba(255,122,0,0.6);
+}
+
+.para {
+    font-size: 18.5px;
+    line-height: 1.85;
+    color: #c4d6f4;
+    margin-bottom: 20px;
+    
+}
+.courses {
+      background-color: #4a90e2;
+      padding: 50px 20px;
+      text-align: center;
+
+     
+      
+    }
+
+    .courses h2 {
+       color: #e1dcd8 ;
+      
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #4a90e2;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
